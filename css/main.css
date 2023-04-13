@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Teko', sans-serif;
+    background-color: rgb(92, 173, 202);
 }
 
 .sbborder{
@@ -19,6 +20,11 @@ body {
     align-items: center;
     justify-content:space-between;
     text-transform: uppercase;
-    background-color: black;
+    background-color: tan;
     font-size: 40px;
+}
+
+a {
+    background-color: transparent;
+    padding: 24px;
 }
