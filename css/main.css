@@ -6,13 +6,12 @@ html {
 body {
     font-family: 'Teko', sans-serif;
     background-color: #0B2B40;
+    color: aliceblue;
 }
 
-.sbborder{
-    margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 0px;
-    padding: 12px 28px;
+h1 {
+  text-transform: capitalize;
+  color: aliceblue;
 }
 
 .port-head {
@@ -29,6 +28,16 @@ body {
     padding: 24px;
     color: black;
     text-decoration: none;
+}
+
+.port-headshot {
+  width: 30%;
+  height: auto;
+}
+
+.port-studioroom {
+  width: 30%;
+  height: auto;
 }
 
 /* Rectangle Out for links */
