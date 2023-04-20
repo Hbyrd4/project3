@@ -14,6 +14,12 @@ h1 {
   font-size: 50px;
 }
 
+.port-h1 {
+  text-transform: capitalize;
+  color: aliceblue;
+  font-size: 50px;
+}
+
 .port-head {
     display: flex;
     align-items: center;
@@ -39,6 +45,7 @@ h1 {
   width: 30%;
   height: auto;
 }
+
 
 /* Rectangle Out for links */
 .hvr-rectangle-out {
@@ -127,6 +134,10 @@ h1 {
   .dropdown:hover .dropbtn {
     background-color: #3B8C6E;
   }
+  .port-bird {
+  width: 50%;
+  height: auto;
+  }
 
   /* Wipe on scroll */
 
@@ -164,7 +175,7 @@ h1 {
   }
   
   .one {
-  
+    grid: repeat(3, 80px) / auto-flow;
   }
   
   .two {
