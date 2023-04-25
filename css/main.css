@@ -16,7 +16,7 @@ h1 {
 }
 
 img{
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 .port-h1 {
@@ -169,9 +169,7 @@ img{
     text-align: center;
     color: #fff;
     
-    &.green {
-      // margin-bottom: 400px;
-    }
+    
   }
 
   panel.green {
@@ -183,15 +181,15 @@ img{
   }
   
   .two {
-      background-color: #EE7785;
+      background-color: #3B8C6E;
   }
   
   .three {
-      background-color: #C89EC4;
+      background-color: #0B2B40;
   }
   
   .four {
-      background-color: #84B1ED;
+      background-color: #3B8C6E;
   }
   
   .top {
@@ -221,4 +219,23 @@ img{
 .port-galrow2 {
   display: flex;
   text-align: center;
+}
+
+/* phone */
+@media screen and (max-width: 479px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .albums {
+    background-color: red;
+  }
+}
+
+desktop
+@media screen and (min-width: 768px){
+
 }
