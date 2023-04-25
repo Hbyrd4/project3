@@ -15,15 +15,23 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
 img{
   width: 100%;
   height: auto;
 }
+
 .port-h1 {
   text-transform: capitalize;
   color: aliceblue;
   font-size: 100px;
 }
+
 .port-logo{
   max-width: 220px;
 
@@ -136,10 +144,11 @@ img{
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /*background color of the dropdown button when content is shown */
   .dropdown:hover .dropbtn {
     background-color: #3B8C6E;
   }
+
   .port-bird {
   width: 50%;
   height: auto;
@@ -230,7 +239,7 @@ img{
   gap: 10px;
   max-width: 1380px;
   margin: 0 auto;
-  list-style-type: none;
+  padding-left: 150px;
 }
 
 .port-broimg {
@@ -239,25 +248,24 @@ img{
   gap: 10px;
   max-width: 1380px;
   margin: 0 auto;
-  list-style-type: none;
+  
 }
 
 .port-letterimg {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
-  max-width: 1331px;
+  max-width: 850px;
   margin: 0 auto;
-  list-style-type: none;
+  padding: ;
 }
 
 .port-shoeimg {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  max-width: 1331px;
+  max-width: 850px;
   margin: 0 auto;
-  list-style-type: none;
+  
 }
 
 .port-gallery {
