@@ -239,3 +239,33 @@ desktop
 @media screen and (min-width: 768px){
 
 }
+
+.port-galimgs {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+}
+
+.port-merchimg {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+}
+
+.port-broimg {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+}
+
+.port-letterimg {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+}
+
+.port-shoeimg {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+}
