@@ -25,7 +25,8 @@ img{
   font-size: 100px;
 }
 .port-logo{
-  
+  max-width: 220px;
+
 }
 
 .port-head {
@@ -238,7 +239,7 @@ img{
   }
 }
 
-desktop
+/* desktop */
 @media screen and (min-width: 768px){
 
 }
@@ -246,7 +247,8 @@ desktop
 .port-galimgs {
   display: flex;
   flex-direction: row;
-  max-width: 700px;
+  /* max-width: 700px; */
+  align-items: center;
 }
 
 .port-merchimg {
@@ -271,4 +273,13 @@ desktop
   display: flex;
   flex-direction: row;
   max-width: 700px;
+}
+
+.port-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 1220px;
+  margin: 0 auto;
+  list-style-type: none;
 }
