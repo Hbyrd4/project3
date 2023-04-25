@@ -46,13 +46,11 @@ img{
 }
 
 .port-headshot {
-  width: 30%;
-  height: auto;
+  max-width: 350px;
 }
 
 .port-studioroom {
-  width: 30%;
-  height: auto;
+  max-width: 500px;
 }
 
 /* Rectangle Out for links */
@@ -207,6 +205,7 @@ img{
   display: flex;
   flex-direction: row;
   text-align: right;
+  margin: 0 auto;
 }
 
 .port-pan3 {
@@ -223,32 +222,6 @@ img{
 .port-galrow2 {
   display: flex;
   text-align: center;
-}
-
-/* phone */
-@media screen and (max-width: 479px) {
-  body {
-    flex-direction: column;
-  }
-}
-
-/* tablet */
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .albums {
-    background-color: red;
-  }
-}
-
-/* desktop */
-@media screen and (min-width: 768px){
-
-}
-
-.port-galimgs {
-  display: flex;
-  flex-direction: row;
-  /* max-width: 700px; */
-  align-items: center;
 }
 
 .port-merchimg {
@@ -290,8 +263,28 @@ img{
 .port-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 30px;
   max-width: 1380px;
   margin: 0 auto;
   list-style-type: none;
+}
+
+/* phone */
+@media screen and (max-width: 479px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .albums {
+    background-color: red;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 768px){
+
 }
