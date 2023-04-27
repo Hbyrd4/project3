@@ -30,6 +30,7 @@ img{
   text-transform: capitalize;
   color: aliceblue;
   font-size: 100px;
+  margin-top: 100px;
 }
 
 .port-logo{
@@ -150,8 +151,9 @@ img{
   }
 
   .port-bird {
-  width: 50%;
+  width: 70%;
   height: auto;
+  margin-top: 50px;
   }
 
   /* Wipe on scroll */
@@ -215,12 +217,14 @@ img{
   flex-direction: row;
   text-align: right;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 .port-pan3 {
   display: flex;
   flex-direction: row-reverse;
   text-align: left;
+  margin-top: 60px ;
 }
 
 .port-galrow1 {
@@ -256,7 +260,7 @@ img{
   grid-template-columns: 1fr;
   max-width: 850px;
   margin: 0 auto;
-  padding: ;
+  margin-top: 60px;
 }
 
 .port-shoeimg {
@@ -265,7 +269,8 @@ img{
   gap: 10px;
   max-width: 850px;
   margin: 0 auto;
-  
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .port-gallery {
@@ -275,6 +280,42 @@ img{
   max-width: 1380px;
   margin: 0 auto;
   list-style-type: none;
+}
+
+.port-teetext {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.port-textlh {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.port-brotext {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.port-phototext {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.port-sec2text {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.port-sec3text {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 /* phone */
