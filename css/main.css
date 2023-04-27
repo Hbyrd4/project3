@@ -13,6 +13,8 @@ h1 {
   color: aliceblue;
   font-size: 50px;
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 p {
@@ -240,10 +242,11 @@ img{
 .port-merchimg {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 100px;
   max-width: 1380px;
   margin: 0 auto;
-  padding-left: 150px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .port-broimg {
@@ -252,7 +255,8 @@ img{
   gap: 10px;
   max-width: 1380px;
   margin: 0 auto;
-  
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .port-letterimg {
@@ -280,6 +284,8 @@ img{
   max-width: 1380px;
   margin: 0 auto;
   list-style-type: none;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .port-teetext {
