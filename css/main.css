@@ -318,6 +318,10 @@ img{
   margin-top: 60px;
 }
 
+.port-camplan {
+  text-align: center;
+}
+
 /* phone */
 @media screen and (max-width: 479px) {
   body {
