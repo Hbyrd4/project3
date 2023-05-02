@@ -292,7 +292,7 @@ img{
   margin-top: 60px;
 }
 
-.port-shoeimg {
+/* .port-shoeimg {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
@@ -300,6 +300,19 @@ img{
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 60px;
+} */
+
+.port-photogal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 2000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  list-style-type: none;
 }
 
 .port-gallery {
