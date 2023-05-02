@@ -373,6 +373,12 @@ img{
   margin-bottom: 60px;
 }
 
+.port-camplantext {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
 /* phone */
 @media screen and (max-width: 479px) {
   body {
