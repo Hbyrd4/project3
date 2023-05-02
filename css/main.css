@@ -366,6 +366,13 @@ img{
   text-align: center;
 }
 
+.port-soundtext {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 /* phone */
 @media screen and (max-width: 479px) {
   body {
@@ -376,8 +383,8 @@ img{
 
 /* tablet */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .albums {
-    background-color: red;
+  body {
+    
   }
 }
 
