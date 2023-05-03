@@ -378,10 +378,16 @@ img{
   margin: 0 auto;
   margin-top: 60px;
 }
+.port-emailsec {
+  margin-bottom: 100px;
+}
 
 .port-contact {
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  color: #3B8C6E;
+  margin-top: 32px;
 }
 
 /* phone */
