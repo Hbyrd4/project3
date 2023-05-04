@@ -390,23 +390,33 @@ img{
   color: #3B8C6E;
   margin-top: 32px;
 }
+/* mobile */
+.port-mobile-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  position: absolute;
+  top: 132px;
+  left: 0;
+  right: 0;
+  padding: 6px;
+}
 
-/* phone */
-@media screen and (max-width: 479px) {
-  body {
-    display: flex;
-    flex-direction: column;
+.port-mobile-nav a {
+  padding: 8px;
+}
+
+
+
+@media (max-width: 999px) {
+  .port-main-nav {
+    display: none;
   }
 }
 
-/* tablet */
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  body {
-    
+@media (min-width: 1000px) {
+  .port-monav-wrapper {
+    display: none;
   }
-}
-
-/* desktop */
-@media screen and (min-width: 768px){
-
 }

@@ -21,7 +21,7 @@
   }())
 
   function myFunction() {
-    var x = document.getElementById("myLinks");
+    var x = document.getElementById("links");
     if (x.style.display === "flex") {
       x.style.display = "none";
     } else {
