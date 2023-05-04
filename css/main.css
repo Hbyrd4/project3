@@ -258,7 +258,7 @@ img{
   align-items: center;
   justify-content: center;
   opacity: 0;
-  background-color: rgba(127, 17, 224, 0.676);
+  color: aliceblue;
 }
 
 .port-olay-content:hover {
