@@ -65,6 +65,7 @@ img{
 
 .port-studioroom {
   max-width: 500px;
+  margin-right: 20px;
 }
 
 /* Rectangle Out for links */
@@ -430,7 +431,7 @@ img{
 }
 
 
-
+/* mobile */
 @media (max-width: 479px) {
   .port-main-nav {
     display: none;
@@ -471,3 +472,11 @@ img{
     display: none;
   }
 }
+
+/* tablet */
+
+/* @media screen and (min-width: 480px) and (max-width: 767px) {
+  .port-main-nav {
+    display: none;
+  }
+} */
