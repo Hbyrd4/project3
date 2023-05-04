@@ -406,10 +406,16 @@ img{
   left: 0;
   right: 0;
   font-size: 18px;
+  z-index: 1;
 }
 
 .port-mobile-nav a {
   padding: 8px;
+  color: black;
+}
+
+.icon {
+  color: black;
 }
 
 
@@ -430,9 +436,13 @@ img{
   }
 
   .port-gallery,
-  .portbroimg,
   .port-merchimg,
   .port-photogal {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .port-broimg {
     display: grid;
     grid-template-columns: 1fr;
   }
