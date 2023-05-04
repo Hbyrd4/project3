@@ -270,6 +270,7 @@ img{
   justify-content: center;
   opacity: 0;
   color: aliceblue;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .port-olay-content:hover {
