@@ -413,13 +413,30 @@ img{
 
 
 
-@media (max-width: 999px) {
+@media (max-width: 479px) {
   .port-main-nav {
     display: none;
   }
+  .port-headshot,
+  .port-studioroom,
+  .port-bird {
+    max-width: 200px;
+  }
+
+  .port-emailsec,
+  .port-phonesec{
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  
+
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 479px) {
   .port-monav-wrapper {
     display: none;
   }
