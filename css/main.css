@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   padding: 30px;
 }
@@ -36,7 +36,7 @@ img{
 }
 
 .port-logo{
-  max-width: 220px;
+  max-width: 155px;
 
 }
 
@@ -47,6 +47,7 @@ img{
     text-transform: uppercase;
     background-color: #3B8C6E;
     font-size: 60px;
+  margin-top: 20px;
 }
 
 .port-links {
