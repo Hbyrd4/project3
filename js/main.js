@@ -13,7 +13,7 @@
               triggerElement: slides[i]
           })
           .setPin(slides[i], {pushFollowers: false})
-          .addIndicators() 
+          // .addIndicators() 
           .addTo(controller);
       }
       
