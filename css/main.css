@@ -22,6 +22,7 @@ p {
   font-size: 45px;
   text-align: center;
   padding: 30px;
+  margin-top: 60px;
 }
 
 img{
@@ -155,9 +156,9 @@ img{
   }
 
   .port-bird {
-  width: 70%;
-  height: auto;
+
   margin-top: 50px;
+  max-width: 700px;
   }
 
   /* Wipe on scroll */
@@ -222,6 +223,7 @@ img{
   text-align: right;
   margin: 0 auto;
   margin-top: 60px;
+  margin-left: 20px;
 }
 
 .port-pan3 {
@@ -229,6 +231,14 @@ img{
   flex-direction: row-reverse;
   text-align: left;
   margin-top: 60px ;
+  margin-left: 20px;
+}
+
+.port-pan4 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-left: 20px;
 }
 
 .port-galrow1 {
