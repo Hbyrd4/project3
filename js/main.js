@@ -3,7 +3,7 @@
     var controller = new ScrollMagic.Controller({
               globalSceneOptions: {
                   triggerHook: 'onLeave',
-                  duration: "100%"
+                  duration: "0%"
               }
       });
        var slides = document.querySelectorAll("section.panel");
