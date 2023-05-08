@@ -468,16 +468,18 @@ img{
 
 }
 
-@media (min-width: 479px) {
+/* tablet */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .port-monav-wrapper {
     display: none;
   }
 }
 
-/* tablet */
+/* desktop */
 
-/* @media screen and (min-width: 480px) and (max-width: 767px) {
-  .port-main-nav {
+/* @media (min-width: 479px) {
+  .port-monav-wrapper {
     display: none;
   }
 } */
