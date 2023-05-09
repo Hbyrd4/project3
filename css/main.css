@@ -341,9 +341,15 @@ img{
 }
 
 .port-spot {
+  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 150px;
 }
 
+.port-sc {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 .port-teetext {
   max-width: 750px;
   margin: 0 auto;
